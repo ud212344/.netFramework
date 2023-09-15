@@ -23,7 +23,7 @@ namespace Assignment3
         static void Main(string[] args)
         {
             /*Program p1 = new Program();
-               p1.setvalue("Amit");
+               p1.setvalue("om hari");
                String name=p1.getvalue();
                Console.WriteLine(name);
                Console.ReadLine();*/
@@ -35,7 +35,7 @@ namespace Assignment3
 
             //Child.Main(new String[] { });
 
-            /*program4 p4 = new program4("AP Singh");
+            /*program4 p4 = new program4("uday chaudhary");
              p4.Getnames();
             Console.ReadLine();*/
 
@@ -49,7 +49,7 @@ namespace Assignment3
 
             //program7.Main(new String[] { });
 
-            // program8 c8 = new program8("BHarat",987456);
+            // program8 c8 = new program8("India",987456);
             // c8.Getinfo2();
 
             //Dev1 d1 = new Dev1();
@@ -61,7 +61,7 @@ namespace Assignment3
 
         internal class Dev : program5
         {
-            public Dev() : base("Mohit", "Sirsaganj") { }
+            public Dev() : base("uday", "chaudhary") { }
             internal void print2()
             {
                 Console.WriteLine($"the Derived user name is {name} and city is {city} and is age  {age} and ac num is {account}");
@@ -124,7 +124,7 @@ namespace Assignment3
     {
         public String City;
 
-        protected Child(string City) : base("amit",250000)
+        protected Child(string City) : base("om hari",250000)
         {
 
             this.City = City;
@@ -132,7 +132,7 @@ namespace Assignment3
 
         public static void Main(String[] args)
         {
-            Child c1 = new Child("Agra");
+            Child c1 = new Child("Mathura");
             Console.WriteLine(c1.City);
 
             c1.Print();
@@ -188,7 +188,7 @@ namespace Assignment3
         protected internal String name;
         protected internal String city;
         protected int age = 22;
-        protected int account = 987456;
+        protected int account = 999737;
 
         protected program5(String name, String city)
         {
@@ -235,7 +235,7 @@ namespace Assignment3
             Child2 c2 = new Child2();
             c2.getempinfo();
         }
-        public Child2() : base(34, "prakash")
+        public Child2() : base(37, "Chaudhary")
         { 
             Console.ReadLine();
         }
@@ -278,9 +278,9 @@ namespace Assignment3
         internal static void Main(string[] args)
         {
 
-            program7 c7 = new program7(1200, 12345);
+            program7 c7 = new program7(1221, 12345);
             c7.Getvalue();
-            c7.Setvalue(1000, 55555);
+            c7.Setvalue(1000, 55678);
             c7.Getvalue();
             Console.ReadLine(); 
         }
@@ -346,7 +346,7 @@ namespace Assignment3
     }
     internal class Dev1 : program9
     {
-        internal Dev1() : base(24, "amit")
+        internal Dev1() : base(23, "omhari")
         { }
         public void Print3()
         {
